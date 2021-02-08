@@ -79,7 +79,7 @@ locals {
     hostname               = var.hostname
     disableNetworking      = var.disable_networking
     interactive            = var.interactive
-    preudoTerminal         = var.pseudo_terminal
+    pseudoTerminal         = var.pseudo_terminal
     dockerSecurityOptions  = var.docker_security_options
   }
 
